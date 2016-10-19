@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:StockList xmlns:tns="http://www.gbce.com/StockSchema"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.gbce.com/StockSchema StockSchema.xsd ">
+	<tns:Stock>
+    <tns:symbol>TEA</tns:symbol>
+    <tns:type>Common</tns:type>
+    <tns:lastDividend>0</tns:lastDividend>
+    <tns:fixedDividend>0</tns:fixedDividend>
+    <tns:parValue>100</tns:parValue>
+  </tns:Stock>
+  <tns:Stock>
+    <tns:symbol>POP</tns:symbol>
+    <tns:type>Common</tns:type>
+    <tns:lastDividend>8</tns:lastDividend>
+    <tns:fixedDividend>0</tns:fixedDividend>
+    <tns:parValue>100</tns:parValue>
+  </tns:Stock>
+  <tns:Stock>
+    <tns:symbol>ALE</tns:symbol>
+    <tns:type>Common</tns:type>
+    <tns:lastDividend>23</tns:lastDividend>
+    <tns:fixedDividend>0</tns:fixedDividend>
+    <tns:parValue>60</tns:parValue>
+  </tns:Stock>
+  <tns:Stock>
+    <tns:symbol>GIN</tns:symbol>
+    <tns:type>Preferred</tns:type>
+    <tns:lastDividend>8</tns:lastDividend>
+    <tns:fixedDividend>2</tns:fixedDividend>
+    <tns:parValue>100</tns:parValue>
+  </tns:Stock>
+  <tns:Stock>
+    <tns:symbol>JOE</tns:symbol>
+    <tns:type>Common</tns:type>
+    <tns:lastDividend>13</tns:lastDividend>
+    <tns:fixedDividend>0</tns:fixedDividend>
+    <tns:parValue>250</tns:parValue>
+  </tns:Stock>
+</tns:StockList>

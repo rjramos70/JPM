@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" 
+	targetNamespace="http://www.gbce.com/StockSchema"
+	xmlns:tns="http://www.gbce.com/StockSchema" 
+	elementFormDefault="qualified">
+
+	<element name="StockList" type="tns:Stocks"/>
+	
+	<complexType name="Stocks">
+		<sequence>
+			<element name="Stock" maxOccurs="unbounded">
+				<complexType>
+					<sequence>
+						<element name="symbol" type="string"/>
+						<element name="type" type="string"/>
+						<element name="lastDividend" type="int"/>
+						<element name="fixedDividend" type="int"/>
+						<element name="parValue" type="int"/>
+					</sequence>
+				</complexType>
+			</element>
+		</sequence>
+	</complexType>
+</schema>
