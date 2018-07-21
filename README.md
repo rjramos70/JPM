@@ -1,5 +1,6 @@
 # JPM
 Super Simple Stock Market Assignment
+
 /*
  * Header		: /GBCE/README.txt 
  * Project Name	: GBCE
